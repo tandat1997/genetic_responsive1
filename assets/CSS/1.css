@@ -20,4 +20,11 @@
 	{
 		display: block;
 	}
+	.left
+	{
+		width: 100%;
+	}
+	.right{
+		width: 100%;
+	}
 }

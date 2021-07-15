@@ -1,0 +1,119 @@
+.product-list{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	text-align: center;
+	padding: 10px;
+}
+.product-item{
+	width: calc((100% - 40px)/3);
+	margin-top: 20px;
+	border: 1px solid black;
+}
+.product-item a{
+	display: block;
+	position: relative;
+}
+.product-item a .product-title{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	color: red;
+	background: rgba(0, 0, 0, 0.6);
+	text-align: center;
+	padding: 10px;
+}
+*{
+	box-sizing: border-box;
+}
+.item-list{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	padding: 10px;
+	text-align: left;
+}
+.item-title{
+	position: relative;
+	width: calc((100% - 50px)/3);
+}
+.item-title:first-child:before{
+	position: absolute;
+	content: "";
+	background-color: green;
+	width: 20px;
+	height: 20px;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.item-title p{
+	position: relative;
+	padding-left: 25px;
+}
+.item-title:nth-child(2):before{
+	position: absolute;
+	content: "";
+	background-color: gold;	
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	top: 50%;
+	transform: translateY(-50%);	
+}
+.item-title:nth-child(3):after{
+	position: absolute;
+	content: "";
+	background-color: yellow;	
+	width: 300px;
+	height: 5px;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 140px;	
+}
+.item-title:nth-child(4):before{
+	position: absolute;
+	content: "";
+	background-color: green;	
+	width: 100px;
+	height: 5px;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;	
+}
+.item-title:nth-child(4)p{
+	padding-left: 200px;
+}
+.item-title:nth-child(4):after{
+	position: absolute;
+	content: "";
+	background-color: green;	
+	width: 100px;
+	height: 5px;
+	top: 50%;
+	margin-left: 360px;
+	transform: translateY(-50%);
+}
+.item-title:nth-child(5):before{
+	position: absolute;
+	content: "";
+	background-color: green;	
+	width: 20px;
+	height: 20px;
+	top: 50%;
+	margin-top: -20px;
+	margin-left: 75px;
+	border-radius: 50%;
+}
+.item-title:last-child:after{
+	position: absolute;
+	content: "";
+	background-color: green;	
+	width: 20px;
+	height: 20px;
+	left: 0;
+	margin-left: 75px;
+	border-radius: 50%;
+}

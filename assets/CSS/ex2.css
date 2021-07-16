@@ -42,3 +42,8 @@
 .a1{
 	width:calc((100% - 40px) / 3);
 }
+
+@media (max-width: 768px)
+.a{
+	display:block;
+}

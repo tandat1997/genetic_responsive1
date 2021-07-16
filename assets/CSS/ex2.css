@@ -15,7 +15,7 @@
 	border: 1px solid black;
 	margin: 10px 10px 0 ;
 	background-color: violet;
-	height: 50px;
+	height: 200px;
 	max-width: 100%;
 }
 .a{
@@ -26,18 +26,18 @@
 .red{
 	background-color: red;
 	border: 1px solid black;
-	height: 30vh;
+	height: 200px;
 }
 .green{
 	background-color: green;
 	border: 1px solid black;
-	height: 30vh;
+	height: 200px;
 
 }
 .orange{
 	background-color: orange;
 	border: 1px solid black;
-	height: 30vh;	
+	height: 200px;	
 }
 .a1{
 	width:calc((100% - 40px) / 3);
